@@ -1,0 +1,29 @@
+---
+title: "Welcome to the DocWizard Blog"
+date: "2026-08-02"
+description: "We're kicking off the DocWizard blog — here's what to expect, and a look at how it's built."
+---
+
+This is the first post published through the new MDX-powered blog pipeline that runs
+alongside the rest of the DocWizard marketing site.
+
+## What this proves
+
+- Frontmatter parses correctly — the title, date, and description above all came from
+  this file's YAML header.
+- MDX content renders through `next-mdx-remote/rsc` as a statically-exported page, with
+  zero client-side JavaScript needed just to display the words on this page.
+- Custom components work inline, not just plain markdown:
+
+<Callout>This is a custom MDX component, not raw markdown — defined once in
+`components/blog/MdxComponents.tsx` and available in every post.</Callout>
+
+Regular markdown features still work as expected: **bold text**, *italics*, and
+[links back to the homepage](/).
+
+```bash
+curl https://api.docwizard.app/api/documents
+```
+
+New posts are just new `.mdx` files dropped into `content/blog/` — no CMS, no extra
+build step, no code changes required.

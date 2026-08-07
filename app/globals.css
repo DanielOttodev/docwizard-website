@@ -1099,7 +1099,8 @@ section {
   font-size: 13.5px;
 }
 
-.prose .callout {
+.prose .callout,
+.prose blockquote {
   background: var(--orange-0);
   border: 1px solid var(--orange-2);
   border-left: 3px solid var(--orange-6);
@@ -1108,6 +1109,52 @@ section {
   margin: 0 0 1.5em;
   font-size: 15.5px;
   color: var(--gray-8);
+}
+
+.prose blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* Markdown tables (the API reference leans on these heavily) - wrapped so a wide table
+   scrolls within itself on narrow viewports rather than overflowing the page. */
+.prose table {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 1.5em;
+  font-size: 15px;
+}
+
+.prose th,
+.prose td {
+  border: 1px solid var(--gray-3);
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.prose th {
+  background: var(--gray-0);
+  font-weight: 600;
+  color: var(--gray-9);
+}
+
+.prose td {
+  color: var(--gray-7);
+}
+
+.prose img {
+  border: 1px solid var(--gray-3);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  margin: 0 0 1.5em;
+}
+
+.prose hr {
+  border: none;
+  border-top: 1px solid var(--gray-3);
+  margin: 2em 0;
 }
 
 @media (max-width: 700px) {

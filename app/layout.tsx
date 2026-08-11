@@ -11,6 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  
   title: "DocWizard — Generate Word Documents Automatically",
   description:
     "Upload a Word template once. DocWizard detects the merge fields and generates polished PDFs or Word documents from your data — one at a time, in bulk from a spreadsheet, or through the API.",

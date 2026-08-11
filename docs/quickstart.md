@@ -25,13 +25,13 @@ From **Templates → Upload Template**, drop your `.docx` file in, give it a nam
 **Scan Template**. DocWizard reads the file and detects every merge field automatically —
 you'll review the detected fields on the next step before publishing.
 
-![Upload Template — empty state](./assets/screenshots/upload-template-empty.png)
+![Upload Template — empty state](/docs/assets/screenshots/upload-template-empty.png)
 
 Once published, your template shows up in **Templates**, with its own detail page tracking
 version history — so if you need to tweak the wording later, you can upload a new version
 without breaking documents already generated from the old one.
 
-![Template detail page with version history](./assets/screenshots/template-detail.png)
+![Template detail page with version history](/docs/assets/screenshots/template-detail.png)
 
 > **Field names are case-sensitive.** `{{CustomerName}}` and `{{customername}}` are different
 > fields as far as DocWizard is concerned — keep the casing consistent between your template
@@ -50,7 +50,7 @@ From **Create Documents**, pick a template and DocWizard shows you a form with o
 merge field it detected — this *is* the mapping step, just presented as a form instead of a
 spreadsheet-column matcher:
 
-![Fill in fields step showing detected merge fields](./assets/screenshots/create-document-fields.png)
+![Fill in fields step showing detected merge fields](/docs/assets/screenshots/create-document-fields.png)
 
 ### Many documents at once
 
@@ -60,7 +60,7 @@ template's field names.** A file with columns `Name, HOURS1, DESCRIPTION1, RATE1
 maps straight onto a template using those same four field names — no separate mapping UI
 needed, because the names *are* the mapping.
 
-![Data Sources page with a template selected](./assets/screenshots/data-sources-selected.png)
+![Data Sources page with a template selected](/docs/assets/screenshots/data-sources-selected.png)
 
 An optional `DocumentName` column lets you name each output individually; without it, rows are
 named `document_1`, `document_2`, and so on.
@@ -71,7 +71,7 @@ For a single document, filling in the form and clicking **Generate Document** pr
 file immediately — the final step shows exactly which values went into it, and gives you a
 download link:
 
-![Document generated successfully, ready to download](./assets/screenshots/create-document-download.png)
+![Document generated successfully, ready to download](/docs/assets/screenshots/create-document-download.png)
 
 For a batch upload, clicking **Generate Documents** queues a background job (so a few hundred
 rows don't have to sit on one long request) — the page polls automatically and shows progress

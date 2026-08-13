@@ -28,10 +28,10 @@ export function Nav() {
         </nav>
 
         <div className="nav-actions">
-          <Link href="#" className="btn btn-ghost">
+          <Link href="https://app.docwizard.co/sign-in" className="btn btn-ghost">
             Sign In
           </Link>
-          <Link href="#" className="btn btn-primary">
+          <Link href="https://app.docwizard.co/sign-in" className="btn btn-primary">
             Get Started Free
           </Link>
         </div>
@@ -59,10 +59,10 @@ export function Nav() {
           ))}
         </ul>
         <div style={{ display: "flex", gap: 12, marginTop: 16 }}>
-          <Link href="#" className="btn btn-outline" onClick={() => setOpen(false)}>
+          <Link href="https://app.docwizard.co/sign-in" className="btn btn-outline" onClick={() => setOpen(false)}>
             Sign In
           </Link>
-          <Link href="#" className="btn btn-primary" onClick={() => setOpen(false)}>
+          <Link href="https://app.docwizard.co/sign-in" className="btn btn-primary" onClick={() => setOpen(false)}>
             Get Started Free
           </Link>
         </div>

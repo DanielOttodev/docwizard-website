@@ -13,7 +13,7 @@ export function Hero() {
             a spreadsheet, or straight from your own code.
           </p>
           <div className="hero-cta">
-            <Link href="#" className="btn btn-primary btn-lg">
+            <Link href="https://app.docwizard.co/sign-in" className="btn btn-primary btn-lg">
               Get Started Free
             </Link>
             <Link href="#how-it-works" className="btn btn-outline btn-lg">

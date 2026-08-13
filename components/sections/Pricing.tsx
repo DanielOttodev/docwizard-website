@@ -11,17 +11,20 @@ const PLANS = [
     name: "Free",
     price: "$0",
     note: "forever",
-    features: ["10 documents / month", "3 templates", "50 previews / month", "5MB max file size"],
+    features: ["10 documents / month", "3 templates", "Community support", 
+      "Free template library"
+
+     ],
     cta: "Get started",
     ctaVariant: "btn-outline",
     featured: false,
   },
   {
     name: "Pro",
-    price: "$XX",
+    price: "$19.95",
     priceSuffix: "/mo",
     note: "billed monthly",
-    features: ["500 documents / month", "50 templates", "API access", "Watermark-free previews"],
+    features: ["500 documents / month", "Unlimited templates", "API access", "Watermark-free previews"],
     cta: "Get started",
     ctaVariant: "btn-primary",
     featured: true,
@@ -29,10 +32,10 @@ const PLANS = [
   },
   {
     name: "Business",
-    price: "$XX",
+    price: "$49.95",
     priceSuffix: "/mo",
     note: "billed monthly",
-    features: ["5,000 documents / month", "500 templates", "Priority support", "Higher rate limits"],
+    features: ["5,000 documents / month", "Unlimited templates", "Priority support", "Higher rate limits"],
     cta: "Get started",
     ctaVariant: "btn-outline",
     featured: false,
@@ -76,7 +79,7 @@ export function Pricing() {
                   </li>
                 ))}
               </ul>
-              <Link href="#" className={`btn ${plan.ctaVariant}`}>
+              <Link href="https://app.docwizard.co/sign-in" className={`btn ${plan.ctaVariant}`}>
                 {plan.cta}
               </Link>
             </div>
@@ -84,7 +87,7 @@ export function Pricing() {
         </div>
 
         <p className="pricing-footnote">
-          All plans include unlimited team members. Prices shown are placeholders — update before publishing.
+          All plans include unlimited team members. Higher plans include features from lower plans unless otherwise noted. All prices are in USD.
         </p>
       </div>
     </section>

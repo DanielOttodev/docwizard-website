@@ -8,7 +8,7 @@ export function FinalCta() {
           <h2>Ready to stop copy-pasting documents?</h2>
           <p>Upload your first template and generate a document in under 10 minutes.</p>
           <div className="hero-cta">
-            <Link href="#" className="btn btn-on-dark btn-lg">
+            <Link href="https://app.docwizard.co/sign-in" className="btn btn-on-dark btn-lg">
               Get Started Free
             </Link>
           </div>

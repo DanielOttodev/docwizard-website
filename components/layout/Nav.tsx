@@ -3,18 +3,16 @@
 import { useState } from "react";
 import Link from "next/link";
 import { NAV_LINKS } from "./navLinks";
+import Image from "next/image";
 
 export function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
     <header className="nav">
-      <div className="container">
+      <div className="container nav-bar">
         <Link href="/" className="nav-brand" onClick={() => setOpen(false)}>
-          <span className="nav-brand-mark">
-            <span className="brand-doc">Doc</span>
-            <span className="brand-wizard">Wizard</span>
-          </span>
+          <Image src="/docs/assets/docwizard-logo-alpha.png" alt="DocWizard Logo" width={85} height={60} />
         </Link>
 
         <nav>
@@ -58,14 +56,7 @@ export function Nav() {
             </li>
           ))}
         </ul>
-        <div style={{ display: "flex", gap: 12, marginTop: 16 }}>
-          <Link href="https://app.docwizard.co/sign-in" className="btn btn-outline" onClick={() => setOpen(false)}>
-            Sign In
-          </Link>
-          <Link href="https://app.docwizard.co/sign-in" className="btn btn-primary" onClick={() => setOpen(false)}>
-            Get Started Free
-          </Link>
-        </div>
+
       </div>
     </header>
   );

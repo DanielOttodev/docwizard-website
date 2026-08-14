@@ -192,7 +192,10 @@ section {
   border-bottom: 1px solid var(--gray-2);
 }
 
-.nav .container {
+/* Scoped to .nav-bar specifically, not .container - .container is also used by
+   .mobile-menu below, and this rule's fixed height was clipping that dropdown to one
+   row tall, cutting off every link past the first. */
+.nav .nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -278,6 +281,8 @@ section {
   list-style: none;
   margin: 0;
   padding: 0;
+  z-index: 50;
+  background-color:#fff;
 }
 
 .mobile-nav-links a {
@@ -950,6 +955,9 @@ section {
 
   .mockup-body {
     grid-template-columns: 90px 1fr;
+  }
+  .nav-actions{
+    display:none;
   }
 }
 

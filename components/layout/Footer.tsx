@@ -31,13 +31,10 @@ export function Footer() {
             <h4>Company</h4>
             <ul className="footer-links">
               <li>
-                <Link href="#">Contact</Link>
+                <Link href="/legal/privacy">Privacy Policy</Link>
               </li>
               <li>
-                <Link href="#">Privacy Policy</Link>
-              </li>
-              <li>
-                <Link href="#">Terms of Service</Link>
+                <Link href="/legal/terms">Terms of Service</Link>
               </li>
             </ul>
           </div>

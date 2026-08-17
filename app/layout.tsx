@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import { Nav } from "@/components/layout/Nav";
 import { Footer } from "@/components/layout/Footer";
 import "./globals.css";
-import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({
   variable: "--font-inter",
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <body>
- <GoogleTagManager gtmId="G-6LJJNDV979" />
+        <GoogleAnalytics gaId="G-6LJJNDV979" />
         <Nav />
         {children}
         <Footer />

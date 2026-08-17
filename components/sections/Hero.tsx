@@ -6,11 +6,9 @@ export function Hero() {
       <div className="container">
         <div>
           <span className="eyebrow">📄 Document automation for teams</span>
-          <h1>Stop copy-pasting into Word documents by hand</h1>
+          <h1>Automate your documents</h1>
           <p className="hero-sub">
-            Upload a template once. DocWizard automatically detects the merge fields, then
-            generates polished PDFs or Word docs from your data — one at a time, in bulk from
-            a spreadsheet, or straight from your own code.
+           Generate invoices, reports, contracts, letters and more from your templates and data. 
           </p>
           <div className="hero-cta">
             <Link href="https://app.docwizard.co/sign-in" className="btn btn-primary btn-lg">

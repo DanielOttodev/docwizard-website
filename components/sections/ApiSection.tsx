@@ -29,7 +29,7 @@ export function ApiSection() {
               Every feature in DocWizard is available through a simple REST API. Create an API
               key from your dashboard and start generating documents in minutes.
             </p>
-            <Link href="#" className="btn btn-outline">
+            <Link href="/docs" className="btn btn-outline">
               Read the API docs
             </Link>
           </div>

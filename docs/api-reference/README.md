@@ -9,9 +9,8 @@ This reference covers the three resources you'll actually use as an API consumer
 - **[Documents](/docs/api-reference/documents)** — generate a single document from a template and a set of field values.
 - **[Jobs](/docs/api-reference/jobs)** — generate many documents at once from a CSV, XLSX, or JSON array of rows, and poll for completion.
 
-> This is a curated reference for the public API surface, not the full internal API. The
-> dashboard itself (billing, API key management, usage stats) is deliberately left out —
-> those are account-management concerns, not things an integration needs to call.
+> This document covers the main concepts and components that make up DocWizard.
+> There currently is no API support for managing user / account details.
 
 ## Base URL
 

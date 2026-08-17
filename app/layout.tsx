@@ -25,8 +25,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.variable}>
-          <GoogleTagManager gtmId="G-6LJJNDV979" />
       <body>
+ <GoogleTagManager gtmId="G-6LJJNDV979" />
         <Nav />
         {children}
         <Footer />

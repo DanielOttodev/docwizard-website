@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <body>
-        <GoogleAnalytics gaId="G-6LJJNDV979" />
+        <GoogleAnalytics gaId="G-1J83XZMRCR" />
         <Nav />
         {children}
         <Footer />

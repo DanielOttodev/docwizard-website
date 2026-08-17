@@ -36,6 +36,10 @@ export function Footer() {
               <li>
                 <Link href="/legal/terms">Terms of Service</Link>
               </li>
+              <li>
+                <small>For any queries, please contact us at </small>
+                <a href="mailto:support@docwizard.co">support@docwizard.co</a>
+              </li>
             </ul>
           </div>
         </div>

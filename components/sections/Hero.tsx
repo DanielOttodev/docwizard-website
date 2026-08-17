@@ -6,7 +6,7 @@ export function Hero() {
       <div className="container">
         <div>
           <span className="eyebrow">📄 Document automation for teams</span>
-          <h1>Automate your documents</h1>
+          <h1>Automate your documents ✨</h1>
           <p className="hero-sub">
            Generate invoices, reports, contracts, letters and more from your templates and data. 
           </p>

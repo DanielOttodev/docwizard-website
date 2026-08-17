@@ -79,7 +79,7 @@ export function Pricing() {
                   </li>
                 ))}
               </ul>
-              <Link href="https://app.docwizard.co/sign-in" className={`btn ${plan.ctaVariant}`}>
+              <Link href="mailto:support@docwizard.co" className={`btn ${plan.ctaVariant}`}>
                 {plan.cta}
               </Link>
             </div>

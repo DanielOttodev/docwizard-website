@@ -33,9 +33,8 @@ without breaking documents already generated from the old one.
 
 ![Template detail page with version history](/docs/assets/screenshots/template-detail.png)
 
-> **Field names are case-sensitive.** `{{CustomerName}}` and `{{customername}}` are different
-> fields as far as DocWizard is concerned — keep the casing consistent between your template
-> and whatever data you feed it later.
+> **Field names are NOT case-sensitive but must be uniqe.** `{{CustomerName}}` and `{{customername}}` are the same
+> fields as far as DocWizard is concerned — fields must have a unique name otherwise they may get missed in the merge process.
 
 ## 2 & 3. Connect your data and map fields
 

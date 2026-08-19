@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { NAV_LINKS } from "./navLinks";
 import Image from "next/image";
+import TrackedLink from "../client/TrackedLink";
 
 export function Nav() {
   const [open, setOpen] = useState(false);
@@ -26,12 +27,12 @@ export function Nav() {
         </nav>
 
         <div className="nav-actions">
-          <Link href="https://app.docwizard.co/sign-in" className="btn btn-ghost">
+          <TrackedLink href="https://app.docwizard.co/sign-in" className="btn btn-ghost" location="nav">
             Sign In
-          </Link>
-          <Link href="https://app.docwizard.co/sign-in" className="btn btn-primary">
+          </TrackedLink>
+          <TrackedLink href="https://app.docwizard.co/sign-up" className="btn btn-primary" location="nav">
             Get Started Free
-          </Link>
+          </TrackedLink>
         </div>
 
         <button

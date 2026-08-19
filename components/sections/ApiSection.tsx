@@ -2,7 +2,7 @@ import Link from "next/link";
 import { CopyCodeButton } from "./CopyCodeButton";
 
 const CODE_TEXT = `# Generate a single document
-curl -X POST https://api.docwizard.app/api/documents \\
+curl -X POST https://api.docwizard.co/api/documents \\
   -H "X-API-Key: YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
@@ -47,7 +47,7 @@ export function ApiSection() {
               <code>
                 <span className="c"># Generate a single document</span>
                 {"\n"}
-                <span className="k">curl</span> -X POST https://api.docwizard.app/api/documents \
+                <span className="k">curl</span> -X POST https://api.docwizard.co/api/documents \
                 {"\n"}
                 {"  "}-H <span className="s">&quot;X-API-Key: YOUR_API_KEY&quot;</span> \
                 {"\n"}

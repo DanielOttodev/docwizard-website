@@ -12,7 +12,7 @@ export function Nav() {
     <header className="nav">
       <div className="container nav-bar">
         <Link href="/" className="nav-brand" onClick={() => setOpen(false)}>
-          <Image src="/docs/assets/docwizard-logo-alpha.png" alt="DocWizard Logo" width={85} height={60} />
+          <Image src="/docs/assets/docwizard-logo-alpha.png" alt="DocWizard Logo" loading="eager" width={85} height={60} />
         </Link>
 
         <nav>

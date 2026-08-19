@@ -2,7 +2,7 @@ const FEATURES = [
   {
     title: "Automatic field detection",
     description:
-      "Upload any .docx and DocWizard finds every merge field for you — no manual tagging or config files.",
+      "Upload any .docx and DocWizard scans it for every merge field automatically — no manual tagging, no config files, no setup step to get wrong.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M9 12h6M9 16h6M9 8h1" />
@@ -14,7 +14,7 @@ const FEATURES = [
   {
     title: "Single & batch generation",
     description:
-      "Generate one document from a form, or thousands at once from a CSV or Excel file — same template, different data.",
+      "Fill in one form for a single document, or upload a CSV/XLSX to generate hundreds from the same template — one row in, one finished document out.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <rect x="3" y="3" width="7" height="7" rx="1" />
@@ -27,7 +27,7 @@ const FEATURES = [
   {
     title: "PDF & Word export",
     description:
-      "Export documents as faithfully-rendered PDFs or editable .docx files — tables, fonts, and styling stay exactly as designed.",
+      "Export as a faithfully-rendered PDF or an editable .docx — tables, fonts, and formatting stay exactly as designed, every single time.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M14 3v4a1 1 0 0 0 1 1h4" />
@@ -39,7 +39,7 @@ const FEATURES = [
   {
     title: "Developer API",
     description:
-      "Generate documents straight from your own code with a simple REST API and API keys — build it into any workflow.",
+      "Generate documents straight from your own code with a simple REST API and scoped API keys — wire it into a CRM, a Zapier automation, or anything else.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="m18 16 4-4-4-4" />
@@ -49,9 +49,9 @@ const FEATURES = [
     ),
   },
   {
-    title: "In-built versioning",
+    title: "Built-in version control",
     description:
-      "Keep track of every version of your template and generated documents, so you can roll back or audit changes at any time.",
+      "Upload a new version of a template without losing the old one. DocWizard tracks every version, flags which fields changed, and lets you roll back in one click.",
     icon: (
 <svg
   xmlns="http://www.w3.org/2000/svg"

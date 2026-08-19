@@ -5,14 +5,16 @@ export function Hero() {
     <section className="hero">
       <div className="container">
         <div>
-          <span className="eyebrow">📄 Document automation for teams</span>
-          <h1>Automate your documents ✨</h1>
+          <span className="eyebrow">📄 Template-based document automation</span>
+          <h1>Turn one Word template into hundreds of finished documents</h1>
           <p className="hero-sub">
-           Generate invoices, reports, contracts, letters and more from your templates and data. 
+            Upload a .docx with your invoice, contract, or certificate layout — DocWizard finds
+            every merge field automatically. Add your data, one record or a thousand, and get
+            back ready-to-send PDFs or Word files with your formatting intact.
           </p>
           <div className="hero-cta">
             <Link href="https://app.docwizard.co/sign-in" className="btn btn-primary btn-lg">
-              Get Started Free
+              Generate your first document 
             </Link>
             <Link href="#how-it-works" className="btn btn-outline btn-lg">
               See how it works

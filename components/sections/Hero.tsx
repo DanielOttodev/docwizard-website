@@ -1,4 +1,4 @@
-import Link from "next/link";
+import TrackedLink from "../client/TrackedLink";
 
 export function Hero() {
   return (
@@ -13,12 +13,12 @@ export function Hero() {
             back ready-to-send PDFs or Word files with your formatting intact.
           </p>
           <div className="hero-cta">
-            <Link href="https://app.docwizard.co/sign-in" className="btn btn-primary btn-lg">
-              Generate your first document 
-            </Link>
-            <Link href="#how-it-works" className="btn btn-outline btn-lg">
+            <TrackedLink  href="https://app.docwizard.co/sign-in" location="hero" className="btn btn-primary btn-lg">
+              Generate your first document
+            </TrackedLink>
+            <TrackedLink href="#how-it-works" location="hero" className="btn btn-outline btn-lg" >
               See how it works
-            </Link>
+            </TrackedLink>
           </div>
           <p className="hero-note">No credit card required · Free plan available</p>
         </div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import TrackedLink from "../client/TrackedLink";
 
 const CHECK = (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -79,9 +80,9 @@ export function Pricing() {
                   </li>
                 ))}
               </ul>
-              <Link href="mailto:support@docwizard.co" className={`btn ${plan.ctaVariant}`}>
+              <TrackedLink href="https://app.docwizard.co/sign-up" className={`btn ${plan.ctaVariant}`} location="pricing">
                 {plan.cta}
-              </Link>
+              </TrackedLink>
             </div>
           ))}
         </div>
